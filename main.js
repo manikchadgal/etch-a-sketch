@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",function(){
             click = !click;
             let draw = document.querySelector("#draw");
             if(click){
-                draw.innerHTML = "Now u can draw";
+                draw.innerHTML = "Now u can draw. click on the screen to stop drawing";
             }
             else{
                 draw.innerHTML = "click on the screen to draw";
